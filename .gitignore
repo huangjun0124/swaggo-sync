@@ -1,0 +1,29 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.dylib
+*.iml
+.idea
+*.test
+*.swp
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+cover.out
+go.sum
+debug
+*.log
+nohup.out
+*.conf
+
+.DS_Store
+.vscode
+.idea/
+conf/.env
+logs/*
+*.out
+cache/config
+go_build_*

@@ -1,0 +1,12 @@
+swag-sync:
+  tarPkgName: swag_dto
+  tarDir: ./testfiles/tar/
+  srcDirs:
+    - ./testfiles/model
+    - ./testfiles/dto
+  ignoreFiles:
+    - testfiles/model/111.go
+    - testfiles/dto/2233.go
+  includeFiles:
+    - ./config/model.go
+
